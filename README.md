@@ -1,0 +1,2 @@
+# Atividade da faculdade feito em java; A atividade é a criação de um cofre que aceita moedas em real, euro e dólar. O cofre pode adicionar moedas, remove-las, lista-las e converte-las para real
+# Activity for universuty written in java; The activity is about creating a safe that can carry real, euro and dollars. The user can add coins to the safe, remove coins, list the coins and convert them to real

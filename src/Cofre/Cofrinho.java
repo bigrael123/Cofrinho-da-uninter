@@ -46,7 +46,7 @@ public class Cofrinho {
 										System.out.println("Quantos reais você quer adicionar?");
 										try {
 											Scanner adicionarValor = new Scanner(System.in); // cria o scanner
-											int aV = adicionarValor.nextInt(); // da o valor de aV o que o usário
+											double aV = adicionarValor.nextDouble(); // da o valor de aV o que o usário
 																				// digitou
 											System.out.println("Você adicionou " + aV + " Reais."); // escreve uma
 																									// mensagem com a
@@ -72,7 +72,7 @@ public class Cofrinho {
 										System.out.println("Quantos euros você quer adicionar?");
 										try {
 											Scanner adicionarValor = new Scanner(System.in);
-											int aV = adicionarValor.nextInt();
+											double aV = adicionarValor.nextDouble();
 											System.out.println("Você adicionou " + aV + " Euros.");
 											Moeda moeda = new Euro();
 											moeda.value = aV;
@@ -92,7 +92,7 @@ public class Cofrinho {
 										System.out.println("Quantos reais você quer adicionar?");
 										try {
 											Scanner adicionarValor = new Scanner(System.in);
-											int aV = adicionarValor.nextInt();
+											double aV = adicionarValor.nextDouble();
 											System.out.println("Você adicionou " + aV + " Dola(res).");
 											Moeda moeda = new Dolar();
 											moeda.value = aV;
